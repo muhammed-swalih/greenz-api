@@ -27,7 +27,7 @@ export const postHoneyMoon = ((req, res) => {
                     fit: sharp.fit.inside,
                     withoutEnlargement: true
                 })
-                .jpeg({ quality: 60 });
+                .jpeg({ quality: 40 });
 
             const compressedImageBuffer = await image.toBuffer();
             const honeyMoon = new honeyMoonModel({
