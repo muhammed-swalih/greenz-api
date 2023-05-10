@@ -17,7 +17,7 @@ router.post('/postpackages', postHoneyMoon)
 
 router.post('/ads', postAd)
 
-router.get('/https://flygreenzholidays.onrender.com', getHoneymoon)
+router.get('getpackages', getHoneymoon)
 
 router.get('/getAd', getAd)
 
